@@ -66,9 +66,10 @@ The skilled athletes outperformed the linemen in all aspects. The skilled athlet
 ```{r}
 t.test(pushups~position,data=mydata)
 ```
-The p-value is 9.421e-06, a number so minescule that forces us to reject the null hypothesis. 
+The p-value is 9.421e-06, a number so minuscule that forces us to reject the null hypothesis. 
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
+The original question was "can skilled athletes do more push ups than linemen in 2 minutes?" The data supported the claim that skilled athletes can indeed do more push ups than linemen, meaning we reject the null hypothesis.
