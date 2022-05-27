@@ -42,6 +42,7 @@ Position is a categorical variable, while push ups is a numerical variable. I wi
 ### Graphical Descriptive Results
 
 <!--Graphical results here. Make sure to show your code. Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too. Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
 ```{r}
 boxplot(pushups~position,data=mydata)
 ```
@@ -49,6 +50,12 @@ boxplot(pushups~position,data=mydata)
 Push ups are on the y-axis of the plot while there are positions on the x-axis. On the plot, there is a large segment on each whisker plot. The average push ups for the skilled players was higher than the the line.
 
 ### Numerical Descriptive Results
+
+```{r}
+favstats(pushups~position,data=mydata)
+```
+
+The skilled athletes outperformed the linemen in all aspects. The skilled athletes did more than double the push ups on average. 
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
